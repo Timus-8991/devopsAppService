@@ -14,7 +14,7 @@ namespace devopsSession_AppService.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "inside", "devopsAppService" };
+            return new string[] { "inside", "devopsAppService test 1" };
         }
 
         // GET api/values/5
